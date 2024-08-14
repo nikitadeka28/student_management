@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .left a,
+.navbar .right a {
+    color: white;
+    text-decoration:solid;
+    padding: 0 10px;
+}
+
+.navbar .left a:hover,
+.navbar .right a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px); /* Adjust according to the height of your navbar */
+    background-color: #f4f4f4;
+    color : green;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.content h1 {
+    margin: 0;
+}
